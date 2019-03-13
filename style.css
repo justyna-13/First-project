@@ -310,11 +310,13 @@ input {
 
 .notform {
   background: #dfc9ca;
-  padding-bottom: 7%;
+  padding: 7%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 5% auto;
+  align-content: flex-start;
+  border: red;
 }
 
 .notform i {
@@ -323,11 +325,12 @@ input {
 }
 
 .notform div {
-  margin: 30px 40px 0;
+  margin: 20px 40px 0;
 }
 
 i~p {
   margin-top: 15px;
+  margin-bottom: 20px;
 }
 
 .map {
